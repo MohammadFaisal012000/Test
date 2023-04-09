@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    height: 400px;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    flex-flow:row nowrap;
+     justify-content:center;  
+     align-items:center; 
+      align-content:center;   
+    /* gap: 10px; */
+}
+.box{
+    border: 2px solid green;
+    width: 60px;
+    /* flex-basis: 25%; */
+}
+#box-3{
+    /* order: 2; */
+     
+     align-self: stretch;
+}
+#box-5{
+    /* order: 4; */
+}

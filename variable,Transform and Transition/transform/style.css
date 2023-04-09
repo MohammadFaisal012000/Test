@@ -1,0 +1,29 @@
+.box{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color:#ccc;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.original{
+      background-color: purple;
+      /* transform: scale(0.8 , .4); */
+      /* transform: scaleX(0.8)
+                 scaleY(0.4 ); */
+      /* transform: skew(20deg); */
+      /* transform: skewX(10deg) skewY(20deg);  */
+      /* transform: translate(100px , 50px); */
+      /* transform: rotate(20deg) skew(10deg) scale(.6); */
+      /* transition: 2s ease-in-out   ; */
+      transition-duration:2s ;
+      transition-timing-function: linear;
+      transition-property: transform , background-color ;
+}
+.original:hover{
+    /* transform: rotate(40deg); */
+    transform: scale(0.5);
+    background-color: sandybrown;
+}

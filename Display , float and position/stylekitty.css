@@ -1,0 +1,80 @@
+.con{
+    width: 100vw;
+    height:100vh
+}
+
+
+.top{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+.left{
+    width: 60%;
+    height:100%;
+    background-color: blueviolet;
+    display: inline-block;
+}
+.right{
+    width: 40%;
+    height: 100%;
+    background-color: brown;
+    float: right;
+}
+
+
+
+
+body{
+    background-color: pink;
+}
+
+.container{
+    width: 80%;
+    margin-inline: auto;
+    
+}
+
+.text-box{
+    width:90%;
+    background-color: beige;
+    padding: 40px;
+    border-radius: 10px;
+}
+.girl-outside{
+      width: 60px;
+       position: sticky;
+       left: 20px;
+       top: 100px;
+      /*top: 40px;
+      left: 50px; */
+      /*position: absolute or relative ;*/
+      /* top: 40px;
+      left: 50px; */
+}
+.girl{
+    width: 200px;
+    float: left;
+    margin: 20px;
+}
+.bottom-girl{
+    float: right;
+    width: 200px;
+}
+/* .top-paragraph{
+    clear: right;
+    
+}
+.bottom-paragraph{
+    clear: left;
+} */
+/* .text-wrapper{
+    border: 2px solid red;
+    width: 300px;
+    height: 300px;
+    overflow:hidden visible;
+} */
+
+.space-bar{
+    height: 200vh;
+}
